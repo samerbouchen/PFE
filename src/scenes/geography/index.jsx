@@ -95,7 +95,8 @@ const Geography = () => {
             ]}
           />
         ) : (
-          <> Hello Hello </>
+          <> 1.	Intercom Technologie
+          Fondée en 2005, INTERCOM TECHNOLOGIES est une société de services en informatique et télécommunications en France et à l'étranger. Elle dispose de plus de 17 ans d'expérience et admet une vision à long terme. Elle intervient au niveau national et international, dans des secteurs très variés tels que la télécommunication et multimédia, système d'information, réseaux et sécurité, systèmes électroniques et expertise en énergie. Accompagnement dans la réalisation des projets avec des managers et experts qui proposent des solutions d’optimisation de projets. Elle bénéficie la confiance de grands comptes européens.  </>
         )}
       </Box>
     </Box>

@@ -8,6 +8,7 @@ import Layout from "scenes/layout";
 import Dashboard from "scenes/dashboard";
 import Chiefs from "scenes/chiefs";
 import Geography from "scenes/geography";
+import Login from "scenes/login/login";
 
 function App() {
   const mode = useSelector((state) => state.global.mode);
@@ -23,6 +24,7 @@ function App() {
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/chiefs" element={<Chiefs />} />
               <Route path="/geography" element={<Geography />} />
+              <Route path="/login" element={<Login />} />
             </Route>
           </Routes>
         </ThemeProvider>
