@@ -16,18 +16,20 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Routes>
-            <Route element={<Layout />}>
-              <Route path="/" element={<Navigate to="/dashboard" replace />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/chiefs" element={<Chiefs />} />
-              <Route path="/geography" element={<Geography />} />
-              <Route path="/login" element={<Login />} />
-            </Route>
-          </Routes>
-        </ThemeProvider>
+  
+            <ThemeProvider theme={theme}>
+              <CssBaseline />
+              <Routes>
+                  <Route path="/login" element={<Login />} />
+                  <Route element={<Layout />}>
+                    <Route path="/" element={<Navigate to="/dashboard" replace />} />
+                    <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/chiefs" element={<Chiefs />} />
+                    <Route path="/geography" element={<Geography />} />
+                  </Route>
+                </Routes>
+            </ThemeProvider>
+        
       </BrowserRouter>
     </div>
   );
